@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="p.css">
+    <script>
+        function navigateTo(url) {
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to our Success page</h1>
+            <nav>
+                <ul>
+                    <li><button onclick="navigateTo('home.html')">Home</button></li>
+                    <li><button onclick="navigateTo('about.html')">About</button></li>
+                    <li><button onclick="navigateTo('features.html')">Features</button></li>
+                    <li><button onclick="navigateTo('contact.html')">Contact</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 style="color:black">Your Journey Starts Here</h2>
+            <p style="color:black">Explore the possibilities with our amazing platform.</p>
+            <button onclick="navigateTo('features.html')">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

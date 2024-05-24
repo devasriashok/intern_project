@@ -1,0 +1,205 @@
+/* Basic Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+ul{
+    padding:10px;
+    display:flex;
+    gap:40px
+}
+ul li{
+    display: inline-block;
+    gap:40px;
+
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url('image/bg2.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    color: white; /* Ensures text is visible against the background */
+}
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.hero button {
+    padding: 20px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: rgb(68, 60, 60);
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+.features {
+    height:100vh;
+    background-image: url('image/fbg3.jpg'); /* Adjust the path as needed */
+    background-size: cover;
+    background-position:center;
+     /* Ensures text is visible over background */
+}
+
+.feature-grid {
+    display:grid
+    opacity: 0;
+
+    transition: opacity 0.5s ease;
+    
+}
+
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+.introduction {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Mission and Values Section */
+.mission-values {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.mission-values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mission-values ul li {
+    padding: 10px 0;
+}
+
+/* Company History Section */
+.history {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Team Section */
+.team {
+    padding: 50px 0;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member {
+    text-align: center;
+    width: 30%;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.contact-form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #333;
+}
+.introduction {
+    height:500px;
+    background-image: url('image/abg.jpg'); /* Adjust the path as needed */
+    background-size: cover;
+    background-position:center;
+     /* Ensures text is visible over background */
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    color: white;
+    background-color: #262222;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Additional Contact Information */
+.additional-contact-info {
+    text-align: center;
+}
+
+.additional-contact-info h2 {
+    font-size: 1.5em;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
